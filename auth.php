@@ -26,7 +26,7 @@
     //Infos para mandar o email:
     $email = $email; //pega o email digitado
 
-	$mensagem = $codigo_secreto;
+	$mensagem = $codigo_secreto; //Cria uma mensagem, pode ser um html
 	
 	//Configurando O apache:
 	ini_set("SMTP","smtp.gmail.com" ); 
